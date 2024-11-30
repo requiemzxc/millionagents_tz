@@ -22,7 +22,7 @@ class get4Lapy():
             'poligon': 'r600-baza-10-18-do-08-00-18-22-do-16-00',
             'priority': 'u=1, i',
             'referer': 'https://4lapy.ru/',
-            'region': '77',
+            'region': f'{cities[self.city]}',
             'sec-ch-ua': '"Microsoft Edge";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
             'sec-ch-ua-mobile': '?0',
             'sec-ch-ua-platform': '"Windows"',
