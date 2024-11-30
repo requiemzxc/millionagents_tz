@@ -1,10 +1,9 @@
 import requests
 from config import cities
 import csv
-import json
 
 
-class getMetro():
+class get4Lapy():
     
     def __init__(self, city, count):
         
@@ -80,8 +79,8 @@ class getMetro():
 # City: 0 - Москва; 1 - Питер
 # Count: кол-во продуктов
 
-getMetro(1, 100).startParse()
-getMetro(0, 100).startParse()
+get4Lapy(1, 100).startParse()
+get4Lapy(0, 100).startParse()
 
 # Daniil Ionov // doublemain9@gmail.com
 # Daniil Ionov // doublemain9@gmail.com
