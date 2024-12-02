@@ -55,7 +55,7 @@ class getMetro():
                     
                     normal_pirce, promo_price = price, None
             
-                file_writer.writerow([item['id'], item['name'], 'https://online.metro-cc.ru/'+item['url'], normal_pirce, promo_price, item['manufacturer']['name']])
+                file_writer.writerow([item['id'], item['name'], 'https://online.metro-cc.ru'+item['url'], normal_pirce, promo_price, item['manufacturer']['name']])
             
         print('Finish!')
             
