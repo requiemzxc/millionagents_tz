@@ -69,7 +69,7 @@ class get4Lapy():
                     
                     normal_pirce, promo_price = price, None
             
-                file_writer.writerow([item['offers'][0]['productId'], item['offers'][0]['name'], 'https://4lapy.ru/'+item['offers'][0]['url'], normal_pirce, promo_price, item['brandCode']])
+                file_writer.writerow([item['offers'][0]['productId'], item['offers'][0]['name'], 'https://4lapy.ru'+item['offers'][0]['url'], normal_pirce, promo_price, item['brandCode']])
             
         print('Finish!')
             
